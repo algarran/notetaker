@@ -1,0 +1,19 @@
+{
+  "name": "notetaker",
+  "version": "1.0.0",
+  "description": "For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "\" echo \\\"Error: no test specified\\\" && exit1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algarran/notetaker.git"
+  },
+  "author": "Nick Algarra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algarran/notetaker/issues"
+  },
+  "homepage": "https://github.com/algarran/notetaker#readme"
+}
