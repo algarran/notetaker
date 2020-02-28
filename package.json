@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/algarran/notetaker/issues"
   },
-  "homepage": "https://github.com/algarran/notetaker#readme"
+  "homepage": "https://github.com/algarran/notetaker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
