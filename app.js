@@ -38,7 +38,7 @@ app.post("/api/notes", (req, res) => {
 
     database.push(note);
     fs.writeFileSync(path.join(__dirname, "/db.json"), JSON.stringify(database), "utf8");
-    response.sendFile(path.join(__dirname, "/db.json"));
+    res.sendFile(path.join(__dirname, "/db.json"));
   });
   
   app.delete("/api/notes/:id", (req, res) => {
@@ -54,7 +54,7 @@ app.post("/api/notes", (req, res) => {
     }
     
     fs.writeFileSync(path.join(__dirname, "/db.json"), JSON.stringify(database), "utf8");
-    response.sendFile(path.join(__dirname, "/db.json"));
+    res.sendFile(path.join(__dirname, "/db.json"));
   });
 
 
