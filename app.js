@@ -11,15 +11,15 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 app.get("/", function (req, res) {
-    response.sendFile(path.join(__dirname, "./index.html"));
+    res.sendFile(path.join(__dirname, "./index.html"));
 });
 
 app.get("/notes", function (req, res) {
-    response.sendFile(path.join(__dirname, "./notes.html"));
+    res.sendFile(path.join(__dirname, "./notes.html"));
 });
 
 app.get("/api/notes", (req,res) => {
-    response.sendFile(path.join(__dirname, "/db.json"));
+    res.sendFile(path.join(__dirname, "/db.json"));
 });
 
 app.post("/api/notes", (req, res) => {
